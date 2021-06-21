@@ -1,0 +1,84 @@
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}body{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       height: 100vh;
+       background: whitesmoke;
+       font-family: 'poppins', sans-serif;
+}
+.form{
+       margin: 10px;
+}
+.con1{
+       display:flex;
+       flex-direction: row;
+       padding-left:4px;
+}
+.container{
+       width: 450px;
+       height: 380px;
+       padding: 20px;
+       background: white;
+       border:0.1px solid khaki;
+}
+.temperature-description{
+       color: rgb(70, 65, 65);
+       text-transform: uppercase;
+}
+.temperature,.temperature1, .temperature2{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       flex-direction: row;
+       margin-top: 15px;
+}
+.temperature1{
+       margin-top: 30px;
+}
+.degree-location{
+       flex-direction: row;
+}
+.degree-section, .degree-section1, .degree-section1{
+       display: flex;
+       align-items: center;
+       cursor: pointer;
+}
+.degree-section span{
+       margin: 10px 10px 60px 10px;
+       font-size: 30px;
+}
+.degree-section h2{
+       font-size: 90px;
+}
+
+#ampm{
+       text-transform: uppercase;
+       padding-left: 2px;
+}
+.wind-speed, .humidity{
+       font-size: 20px;
+       margin-top: 10px;
+}
+input{
+       padding: 12px;
+       border-radius: 10px;
+       outline: none;
+       color:black;
+       font-size: 15px;
+       font-weight: 900;
+       text-transform: capitalize;
+}
+button{
+       padding: 10px;
+       border-radius: 10px;
+       outline: none;
+       color: darkslategray;
+       font-family: sans-serif;
+       cursor: pointer;
+       font-size: larger;
+}
