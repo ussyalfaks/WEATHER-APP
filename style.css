@@ -12,7 +12,7 @@
        font-family: 'poppins', sans-serif;
 }
 .form{
-       margin: 10px;
+       margin: 3%;
 }
 .con1{
        display:flex;
@@ -20,9 +20,9 @@
        padding-left:4px;
 }
 .container{
-       width: 450px;
-       height: 380px;
-       padding: 20px;
+       width: 26rem;
+       height: 23rem;
+       padding: 2%;
        background: white;
        border:0.1px solid khaki;
 }
@@ -81,4 +81,14 @@ button{
        font-family: sans-serif;
        cursor: pointer;
        font-size: larger;
+}
+@media(max-width:545px){
+       .container{
+       width: 100%;
+       height: 23rem;
+}
+.degree-section h2{
+       font-size: 70px;
+}
+
 }
