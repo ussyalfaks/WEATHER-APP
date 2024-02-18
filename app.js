@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             const humid = data.main.humidity;
                             const ico = data.weather[0].icon;
 
- 
 
 
                             document.querySelector('.location-timezone').textContent = cityName;
