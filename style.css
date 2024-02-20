@@ -50,11 +50,9 @@
      .temperature1 {
        margin-top: 30px;
      }
-     
      .degree-location {
        flex-direction: row;
      }
-     
      .degree-section,
      .degree-section1,
      .degree-section1 {
@@ -62,7 +60,6 @@
        align-items: center;
        cursor: pointer;
      }
-     
      .degree-section span {
        margin: 10px 10px 60px 10px;
        font-size: 30px;
