@@ -112,6 +112,7 @@
        border: 1px solid gainsboro;
      }
      
+     
      @media (max-width: 545px) {
        .container {
          width: 100%;
