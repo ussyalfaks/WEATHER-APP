@@ -3,16 +3,28 @@
        padding: 0;
        box-sizing: border-box;
      }
-     
      body {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-direction: column;
-       height: 100vh;
-       background: #664343; /* Updated background color */
-       font-family: 'Poppins', sans-serif; /* Corrected font family name */
-     }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      background-color: rebeccapurple;
+    }
+    
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: 'Poppins', sans-serif;
+      width: 500px;
+      height: 100vh;
+      background: rgba(255, 255, 255, 0.22);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(6.2px);
+      -webkit-backdrop-filter: blur(6.2px);
+    }
+    
      
      .form {
        margin: 3%;
@@ -26,12 +38,8 @@
        width: 26rem;
        height: 23rem;
        padding: 2%;
-       background: #ffffff; /* Updated background color */
-       border: 1px solid #d3d3d3; /* Updated border color */
-       border-radius: 20px; /* Added border-radius */
-       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box-shadow for a subtle effect */
-     }
      
+     }
      .temperature-description {
        color: #464141; /* Updated text color */
        text-transform: uppercase;
@@ -84,9 +92,10 @@
        padding: 12px;
        border-radius: 20px;
        outline: none;
-       color: #000000; /* Updated text color */
+       color: white;
        font-size: 15px;
        font-weight: 700;
+       background: transparent;
        text-transform: capitalize;
        border: 1px solid gainsboro;
      }
@@ -95,11 +104,11 @@
        padding: 10px;
        border-radius: 20px;
        outline: none;
-       color: #2f4f4f; /* Updated text color */
+       color: #ffffff; /* Updated text color */
        font-family: sans-serif;
        cursor: pointer;
+       background: transparent;
        font-size: larger;
-       background-color: white;
        border: 1px solid gainsboro;
      }
      
