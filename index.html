@@ -8,45 +8,52 @@
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-   <div class="wrapper">
-       <div class="form">
-              <input type="text" placeholder="city here" id="input-btn">
-              <button id="submit-btn">search</button>
-               </div>
-              <div class="container">
-                     <div class="location">
-                            <h1 class="location-timezone">Timezone</h1>
-                    <div class="con1">
-                                   <h4 id="hour">01</h4>
-                                   <h4 class="dot">:</h4>
-                                   <h4 id="minute">00</h4>
-                                   <h4 id="ampm"> am</h4>
-                            <h4 class="temperature-description">sanyi</h4>
+  <div class="vids-container">
+       <video autoplay muted loop id="background-video">
+              <source src="./img/vids.mp4" type="video/mp4">
+          </video>
+       <div class="wrapper">
+              <div class="searchMe">
+                     <input type="text" placeholder="city here" id="input-btn">
+                     <button id="submit-btn">search</button>
+                      </div>
+                     <div class="container">
+                            <div class="location">
+                                   <h1 class="location-timezone">Timezone</h1>
+                           <div class="con1">
+                                         <div class="time">
+                                          <h4 id="hour">01</h4>
+                                          <h4 class="dot">:</h4>
+                                          <h4 id="minute">00</h4>
+                                          <h4 id="ampm"> am</h4>
+                                         </div>
+                                   <h4 class="temperature-description">sanyi</h4>
+                            </div>
+                           </div>
+                     <div class="temperature">
+                                   <div class="degree-section">
+                                   <h2 class="temperature-degree">32</h2>
+                                   <span>°C</span>
+                                   </div>
+                                   <div>
+                                          <img src="" width="130" class="icon" alt="">
+                                   </div>
                      </div>
-                    </div>
-              <div class="temperature">
-                            <div class="degree-section">
-                            <h2 class="temperature-degree">32</h2>
-                            <span>°C</span>
-                            </div>
-                            <div>
-                                   <img src="" width="130" class="icon" alt="">
-                            </div>
+                       <div class="temperature1">
+                                   <div class="degree-section1">
+                                   <img src="./img/rain.png" width="50" class="img2" alt="rain">
+                                   </div>
+                                   <div><img src="./img/wind.png" width="50" class="img3" alt="wind"></div>
+                     </div>
+                       <div class="temperature2">
+                                   <div class="degree-section2">
+                                   <h2 class="humidity">humidity</h2>
+                                   </div>
+                                   <div> <h1 class="wind-speed">km/h winds</h1></div>
+                     </div>
               </div>
-                <div class="temperature1">
-                            <div class="degree-section1">
-                            <img src="./img/rain.png" width="50" class="img2" alt="rain">
-                            </div>
-                            <div><img src="./img/wind.png" width="50" class="img3" alt="wind"></div>
-              </div>
-                <div class="temperature2">
-                            <div class="degree-section2">
-                            <h2 class="humidity">humidity</h2>
-                            </div>
-                            <div> <h1 class="wind-speed">km/h winds</h1></div>
-              </div>
-       </div>
-   </div>
+          </div>
+  </div>
 <script src="app.js"></script>
 </body>
 </html>

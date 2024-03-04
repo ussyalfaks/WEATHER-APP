@@ -18,14 +18,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             document.querySelector('.location-timezone').textContent = cityName;
                             document.querySelector('.temperature-degree').textContent = temp.toFixed(0);
-                            document.querySelector('.temperature-description').textContent = "," + description;
+                            document.querySelector('.temperature-description').textContent = description;
                             document.querySelector('.wind-speed').textContent = WS + " km/h winds";
-                            document.querySelector('.humidity').textContent = humid + "% Precipitation";
+                            document.querySelector('.humidity').textContent = humid + " % Precipitation";
                             document.querySelector('.icon').src = "https://openweathermap.org/img/wn/" + ico + ".png";
 
 
                      })
-                     .catch(res => alert('please Type Right City Name'));
+                     .catch(res => alert('Please Type Right City Name'));
        
        
        });
