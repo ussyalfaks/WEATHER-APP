@@ -13,9 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             const WS = data.wind.speed;
                             const humid = data.main.humidity;
                             const ico = data.weather[0].icon;
-
-
-
                             document.querySelector('.location-timezone').textContent = cityName;
                             document.querySelector('.temperature-degree').textContent = temp.toFixed(0);
                             document.querySelector('.temperature-description').textContent = description;
@@ -54,8 +51,6 @@ document.addEventListener('DOMContentLoaded', function () {
               hours.innerHTML = h;
               minute.innerHTML = m;
               ampm.innerHTML = am;
-
-
        }
 
        setInterval(clock, inc)
