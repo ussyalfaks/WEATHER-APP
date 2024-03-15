@@ -46,12 +46,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
               h = (h < 10) ? '0' + h : h;
               m = (m < 10) ? '0' + m : m;
-
-
               hours.innerHTML = h;
               minute.innerHTML = m;
               ampm.innerHTML = am;
        }
-
        setInterval(clock, inc)
 });
