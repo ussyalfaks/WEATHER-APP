@@ -20,11 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             document.querySelector('.humidity').textContent = humid + " % Precipitation";
                             document.querySelector('.icon').src = "https://openweathermap.org/img/wn/" + ico + ".png";
 
-
                      })
                      .catch(res => alert('Please Type Right City Name'));
-       
-       
        });
 
        //CLOCK
