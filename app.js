@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
               let ampm = document.getElementById('ampm');
 
               let h = new Date().getHours();
-              let m = new Date().getMinutes();
+              let m = new Date().getMinutes()
               var am = 'AM';
 
               if (h > 12) {

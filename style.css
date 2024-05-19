@@ -21,10 +21,10 @@
       font-family: 'Poppins', sans-serif;
       width: 400px;
       height: 100vh;
-      background: rgba(255, 255, 255, 0.22);
+      background: rgba(0, 0, 0, 0.22);
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(3.2px);
-      -webkit-backdrop-filter: blur(3.2px);
+      backdrop-filter: blur(2.0px);
+      -webkit-backdrop-filter: blur(2.0px);
      z-index: 1;
     }
     .vids-container {
